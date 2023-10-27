@@ -1,0 +1,4 @@
+pyrogram
+tgcrypto
+git+https://github.com/konichiwa55115/uplsd5asd165/archive/refs/heads/master.zip
+torrentp
