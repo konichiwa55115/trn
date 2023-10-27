@@ -1,7 +1,8 @@
 FROM python:3.9-buster
 RUN apt update && apt upgrade -y
 RUN  apt-get update 
-RUN apt install git curl python3-pip dos2unix p7zip-full p7zip-rar  -y
+RUN apt install git curl python3-pip -y
+RUN apt install dos2unix p7zip-full p7zip-rar 
 RUN pip3 install -U pip
 COPY requirements.txt /requirements.txt
 RUN cd /
